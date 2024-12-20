@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p>Click the button to execut the code</p>
+    <button onclick="myFunction()">Try it</button>
+    <p id="result"></p>
+    <script>
+        function myFunction() {
+            var x = 10, y = 20, a = eval("x+y") + "<br>", b = eval("2*2") + "<br>", c = eval("y-x") + "<br>", res = a + b + c;
+            document.getElementById("result").innerHTML=res;
+        }
+    </script>
+</body>
+
+</html>
